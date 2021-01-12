@@ -11,7 +11,6 @@ If no goals are suitable (i.e. we're not closest to them, and the are not safe),
 * Search out the largest empty spaces and try to hang out there
 * Purposely position to kill other snakes - maybe make traps out of existing food if healthy enough?
 * Identify "easy kill" scenarios (i.e. when you are in control of another snakes choke point)
-* Voronoi heuristic for when snakes are really long (see https://www.a1k0n.net/2010/03/04/google-ai-postmortem.html)
 * Either avoid or master endgame (Once snakes are super long, and space is slim, the optimal strategy probably changes, either kill of other snakes before this happens, or figure out a good strategy that avoids getting wrecked by RNG once walls start spawning in your face)
 
 # battlesnake-python
@@ -73,7 +72,3 @@ or visit [http://APP_NAME.herokuapp.com](http://APP_NAME.herokuapp.com).
 ```
 heroku logs --tail
 ```
-
-## Questions?
-
-Email [battlesnake@sendwithus.com](mailto:battlesnake@sendwithus.com), or tweet [@send_with_us](http://twitter.com/send_with_us).
